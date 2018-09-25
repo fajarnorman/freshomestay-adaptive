@@ -1,6 +1,6 @@
 <template>
     <div id="bottom-menu">
-        <ul class="bottom-menu-fix">
+        <!-- <ul class="bottom-menu-fix">
             <li>
                 <a href="#">
                     <font-awesome-icon class="fontIcons" :icon="fontIcons.search" />
@@ -19,7 +19,23 @@
                     Menu
                 </a>
             </li>
-        </ul>
+        </ul> -->
+        <div class="bottom-menu">
+            <md-bottom-bar md-sync-route>
+                <md-bottom-bar-item to="/">
+                    <font-awesome-icon class="fontIcons" :icon="fontIcons.search" />
+                    <span>Cari</span>
+                </md-bottom-bar-item>
+                <md-bottom-bar-item to="/login">
+                    <font-awesome-icon class="fontIcons" :icon="fontIcons.pesanan" />
+                    <span>Pesanan</span>
+                </md-bottom-bar-item>
+                <md-bottom-bar-item to="/menu">
+                    <font-awesome-icon class="fontIcons" :icon="fontIcons.menu" />
+                    <span>Menu</span>
+                </md-bottom-bar-item>
+            </md-bottom-bar>
+        </div>
     </div>
 </template>
 
