@@ -1,0 +1,72 @@
+.no-pesanan-aktif{
+    img{
+        max-width: 230px;
+        opacity: .7;
+    }
+    h5{
+        font-size: 18px;
+        font-weight: normal;
+        margin-bottom: 5px;
+        padding: 0;
+        color: #000;
+        margin-top: 15px;
+    }
+    p{
+        font-size: 13px;
+        color: #000;
+        margin-bottom: 3em;
+    }
+}
+.item-pesanan{
+    text-align: left;
+    border-bottom: 1px solid #cbcbcb;
+    margin-bottom: 15px;
+    .desc-pesanan{
+        display: inline-block;
+        vertical-align: top;
+        text-align: left;
+        padding: 10px;
+        max-width: 215px;
+        h4{
+            margin-top: 0;
+            margin-bottom: 10px;
+            font-size: 14px;
+        }
+        .periode{
+            margin-bottom: 10px;
+            font-size: 13px;
+        }
+        span{
+            display: inline-block;
+            font-size: 12px;
+            margin-bottom: 10px;
+            &.night-duration{
+                border: 3px solid #cbcbcb;
+                padding: 2px 7px;
+                border-radius: 5px
+            }
+            &.status{
+                display: block;
+                background: #919191;
+                color: #fff;
+                border-radius: 5px;
+                padding: 2px 7px;
+                font-weight: 600;
+            }
+        }
+    }
+    .img-pesanan{
+        display: inline-block;
+        vertical-align: top;
+        text-align: left;
+        float: right;
+        padding-top: 10px;
+        padding-right: 10px;
+        img{
+            max-width: 75px;
+            border: 1px dashed #cbcbcb;
+            border-radius: 50%;
+            padding: 10px;
+        }
+    }
+}

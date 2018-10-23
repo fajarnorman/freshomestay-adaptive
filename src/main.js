@@ -3,6 +3,7 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import auth from './auth'
 import axios from 'axios'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import VueMaterial from 'vue-material'
@@ -10,11 +11,12 @@ import 'vue-material/dist/vue-material.min.css'
 import 'vue-material/dist/theme/default.css'
 
 Vue.use(VueMaterial)
+Vue.use(require('vue-moment'))
 
 Vue.config.productionTip = false
 
 // Config Axios 
-// axios.defaults.headers.common.Authorization = auth.getAuthHeader().Authorization
+axios.defaults.headers.common.Authorization = auth.getAuthHeader().Authorization
 
 // axios is the axios object now, so any method you can call on axios object, you can call on this.axios.
 Vue.prototype.axios = axios

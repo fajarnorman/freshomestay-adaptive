@@ -1,0 +1,77 @@
+.items-promo{
+    border-bottom: 1px solid #d1d1d1;
+    margin-bottom: 15px;
+    a{
+        display: block;
+    }
+    img{
+        border-radius: 5px;
+        margin-bottom: 10px;
+        width: 100%;
+    
+    }
+    span{
+        color: #000;
+        letter-spacing: 0px;
+        display: block;
+        margin-bottom: 10px;
+    }
+}
+.title-promo{
+    text-align: left;
+    font-size: 14px;
+    position: relative;
+    margin-bottom: 10px;
+}
+.title-promo:before{
+    content: '';
+    width: 50px;
+    height: 2px;
+    background: #3a8f3e;
+    position: absolute;
+    left: 0;
+    top: -5px;
+}
+.content-promo{
+    text-align: left;
+    .desc-promo{
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+        margin-left: -15px;
+        margin-right: -15px;
+        padding: 0 15px;
+        margin-bottom: 15px;
+    }
+    .kupon, .syarat-ketentuan{
+        margin-bottom: 15px;
+    }
+    ol, ul{
+        padding-left: 15px;
+    }
+    .title{
+        font-size: 14px;
+        color: rgba($color: #000000, $alpha: .45);
+        &.bold{
+            color: #000;
+            font-weight: 600;
+        }
+    }
+    p{
+        font-size: 13px;
+        margin-top: 2px;
+        color: #000;
+    }
+    .button-bottom{
+        text-align: center;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        border-radius: 0;
+        padding: 10px;
+    }
+}
+.img-slide{
+    img{
+        width: 100%;
+    }
+}

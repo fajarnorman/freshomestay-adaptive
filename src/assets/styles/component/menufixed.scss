@@ -7,6 +7,15 @@
         box-shadow: 0px 6px 20px rgba($color: #000, $alpha: .5);
         // padding: 5px 0;
         background: #fff;
+        a{
+            &.router-link-exact-active.router-link-active{
+                .md-button-content{
+                    .fontIcons, span{
+                        color: #40b62a;
+                    }
+                }
+            }
+        }
         .md-button-content{
             margin-top: 10px;
             span{
@@ -19,8 +28,9 @@
             .fontIcons{
                 display: block;
                 margin: 0 auto;
-                font-size: 18px;
-                color: #000;
+                font-size: 16px;
+                margin-bottom: 2px;
+                color: rgba($color: #000, $alpha: .56);
             }
         }
     }

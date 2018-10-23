@@ -26,7 +26,7 @@
                     <font-awesome-icon class="fontIcons" :icon="fontIcons.search" />
                     <span>Cari</span>
                 </md-bottom-bar-item>
-                <md-bottom-bar-item to="/login">
+                <md-bottom-bar-item to="/pesanan/aktif">
                     <font-awesome-icon class="fontIcons" :icon="fontIcons.pesanan" />
                     <span>Pesanan</span>
                 </md-bottom-bar-item>

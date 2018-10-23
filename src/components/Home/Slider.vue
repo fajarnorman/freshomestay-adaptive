@@ -5,7 +5,7 @@
             <div><img src="../../assets/images/promo2.jpg" alt=""></div>
             <div><img src="../../assets/images/promo3.jpg" alt=""></div>
         </tiny-slider>
-        <a href="#" class="seeallpromo">Lihat Semua Promo</a>
+        <router-link to="/promo" class="seeallpromo">Lihat Semua Promo</router-link>
     </div>
 </template>
 

@@ -15,4 +15,33 @@
         color: #fff;
         border: 1px solid #4bb03a;
     }
+    &.green-light{
+        background: #76fd8f;
+        border: 1px solid #76fd8f;
+        color: #000;
+        font-size: 18px;
+    }
+    &.orange{
+        background: #f18a1b;
+        border: 1px solid #f18a1b;
+        color: #fff !important;
+    }
+    &.btn-round{
+        border-radius: 50px;
+    }
+    &.button-bottom{
+        position: fixed;
+        bottom: 15px;
+        left: 15px;
+        width: calc(100% - 35px);
+        right: 0;
+    }
+}
+
+.md-tabs.md-theme-default .md-tabs-navigation .md-button.md-active{
+    color: rgba(0,0,0,0.7);
+    font-weight: 600;
+}
+.md-tabs.md-theme-default .md-tabs-indicator{
+    background: #4bb03a;
 }

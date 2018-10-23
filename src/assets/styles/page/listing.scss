@@ -1,0 +1,347 @@
+.detail-listing{
+    text-align: left;
+    .head-listing{
+        margin-bottom: 25px;
+        .head-desc{
+            float: left;
+            width: 60%;
+            h1{
+                font-size: 14px;
+                margin-bottom: 5px;
+                margin-top: 0;
+            }
+            .address{
+                margin:0;
+                font-size: 13px;
+            }
+        }
+        .see-maps{
+            float: right;
+            .get-maps{
+                width: 100px;
+                height: 100px;
+                border: 1px solid rgba($color: #000000, $alpha: .1)
+            }
+            a{
+                background: #40b62a;
+                display: block;
+                color: #fff;
+                text-align: center;
+                padding: 4px 6px;
+            }
+        }
+    }
+    .slider-detail{
+        margin-left: -2px;
+        margin-right: -2px;
+        .slide-first, .slide-second{
+            display: flex;
+            margin-bottom: 4px;
+        }
+        .items{
+            margin: 0 2px;
+            .img-slider-items{
+                width: 100%;
+                height: 25vw;
+                background-position: center center;
+                display: block;
+                object-fit: cover;
+            }
+        }
+    }
+    .fasilitas{
+        margin-bottom: 20px;
+        .fas-list{
+            overflow: auto;
+            ul{
+                width: calc(100% + 70px * 5);
+                padding-bottom: 5px;
+                li{
+                    display: inline-block;
+                    max-width: 80px;
+                    text-align: center;
+                    margin-right: 5px;
+                    vertical-align: top;
+                    img{
+                        max-width: 25px;
+                        display: block;
+                        margin: 0 auto 5px;
+                    }
+                    .fontIcons{
+                        font-size: 22px;
+                        color: #40b62a;
+                        display: block;
+                        margin: 0 auto 5px;
+                    }
+                    span{
+                        color: #000;
+                        font-size: 12px;
+                        line-height: 1.2;
+                        display: block;
+                    }
+                }
+            }
+        }
+    }
+    .testimony{
+        margin-left: -15px;
+        margin-right: -15px;
+        position: relative;
+        img{
+            height: 40vw;
+            object-fit: cover;
+            width: 100%;
+        }
+        .list-testimony{
+            position: relative;
+            .img-overlay{
+                position: absolute;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                text-align: center;
+                background: rgba($color: #000000, $alpha: .5);
+                padding: 20px;
+                h3, p, span{
+                    color: #fff;
+                    margin: 0;
+                }
+                h3{
+                    margin-top: 18px;
+                }
+            }
+        }
+    }
+    .static-content{
+        border-bottom: 1px solid #bfbfbf;
+        padding-bottom: 15px;
+        margin-left: -15px;
+        margin-right: -15px;
+        >div{
+            padding: 0 15px;
+        }
+        
+    }
+    ul.custom-li{
+        padding-left: 15px;
+        li{
+            position: relative;
+            font-size: 12px;
+            line-height: 1.5;
+            margin-bottom: 5px;
+            &:last-child{
+                margin-bottom: 0;
+            }
+            &:before{
+                content: '';
+                width: 8px;
+                height: 8px;
+                display: block;
+                position: absolute;
+                border-radius: 50%;
+                border: 1px solid #000;
+                top: 6px;
+                left: -15px;
+            }
+        }
+    }
+    .ketersediaan-homestay{
+        position: relative;
+        .forms-ketersediaan{
+            border: 1px solid #bfbfbf;
+            padding: 5px 20px;
+            border-radius: 15px;
+            .form-field{
+                display: inline-block;
+                vertical-align: top;
+                position: relative;
+                width: 49%;
+                &:first-child{
+                    &:after{
+                        content: '';
+                        width: 1px;
+                        height: 123%;
+                        background: #bfbfbf;
+                        display: block;
+                        position: absolute;
+                        top: -5px;
+                        right: 10px;
+                    }
+                }
+                span{
+                    display: block;
+                    font-size: 13px;
+                }
+            }
+        }
+    }
+    .with-separator{
+        position: relative;
+        &:after{
+            margin-top: 20px;
+            content: '';
+            height: 15px;
+            width: 100vw;
+            display: block;
+            margin-left: -15px;
+            margin-right: -15px;
+            background: #e1e1e1;
+        }
+    }
+    .showing-price{
+        .price-head{
+            padding: 12px 15px;
+            margin-left: -15px;
+            margin-right: -15px;
+            border-bottom: 1px solid #bfbfbf;
+            h4{
+                display: inline-block;
+                vertical-align: middle;
+                font-size: 13px;
+                margin: 0;
+                color: rgba(0, 0, 0, 0.25);
+                font-weight: normal;
+            }
+            .price-select{
+                display: inline-block;
+                vertical-align: middle;
+                margin-left: 0px;
+                float: right;
+                .md-radio{
+                    margin: 0;
+                    margin-right: 10px;
+                    &:last-child{
+                        margin-right: 0;
+                    }
+                    .md-radio-label{
+                        padding-left: 5px;
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+        .content-price{
+            .price-desc{
+                padding: 15px 0;
+                float: left;
+                h5{
+                    margin: 0;
+                    font-size: 16px;
+                    margin-bottom: 10px;
+                }
+            }
+            .price-list{
+                float: right;
+                text-align: center;
+                margin-top: 25px;
+                span{
+                    font-size: 12px;
+                    display: block;
+                }
+                .actual-price{
+                    color: #388e3c;
+                    margin: 5px 0;
+                }
+                a{
+                    padding: 6px;
+                    border-radius: 50px;
+                    color: #fff;
+                }
+            }
+        }
+    }
+    .other-content{
+        padding: 15px 15px 0;
+        p{
+            margin: 0;
+            a{
+                color: #3a8f3e;
+                text-decoration: underline;
+            }
+        }
+    }
+}
+.filter-menu{
+    position: fixed;
+    bottom: 30px;
+    left: 50%;
+    width: 70%;
+    transform: translate(-50%);
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.5);
+    background: #fff;
+    padding: 15px 0;
+    border-radius: 15px;
+    a{
+        color: #7a7a7a !important;
+        display: inline-block;
+        margin-right: 15px;
+        position: relative;
+        padding: 0 15px;
+        &:last-child{
+            margin-right: 0;
+            &:before{
+                content: '';
+                display: inline-block;
+                width: 1px;
+                height: 50px;
+                background: rgba(122, 122, 122, 0.43);
+                position: absolute;
+                top: -15px;
+                left: -10px;
+            }
+        }
+    }
+}
+.filter-content{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    bottom: -100%;
+    z-index: 1000;
+    background: #fff;
+    transition: all .4s ease;
+    &.showing{
+        bottom: 0;
+    }
+    .filter-head{
+        background: #40b62a;
+        color: #fff;
+        padding: 15px;
+        font-size: 16px;
+        position: relative;
+        a.close{
+            position: absolute;
+            right: 15px;
+            color: #fff;
+        }
+    }
+    .filter-listing{
+        text-align: left;
+        padding: 15px 0;
+        padding-bottom: 56px;
+        .item-filter{
+            margin-bottom: 20px;
+            padding: 0 15px 15px;
+            border-bottom: 5px solid #e1e1e1;
+            .sub-title{
+                margin-top: 0;
+                margin-bottom: 15px;
+            }
+            .md-checkbox{
+                width: 100%;
+                margin-top: 0;
+                margin-bottom: 10px;
+                &:last-child{
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+    .sumbit-button{
+        color: #fff !important;
+        font-size: 16px;
+        font-weight: 600;
+        position: absolute;
+    }
+}
